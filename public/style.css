@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+body {
+    background-color: #cbd5e0;
+    text-align: center;
+    margin: 0 auto;
+    color: #2d3748;
+    width: 70%;
+    text-transform: uppercase;
+}
+
+
+input{
+    padding: 10px;
+
+}
+
+
+.insert-user {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #2d3748;
+
+}
+
+.box-users div {
+    display: flex;
+    position: relative;
+
+}
+.editar{
+    position: absolute;
+    right: 100px;
+    top: 7px;
+    border: none;
+    background-color: cornflowerblue;
+}
+.deletar{
+    position: absolute;
+    right: 0;
+    top: 7px;
+    border: none;
+    background-color: #ef4444;
+
+}
+
+
+
+
+
